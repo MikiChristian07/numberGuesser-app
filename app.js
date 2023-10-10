@@ -9,7 +9,7 @@ GAME FUNCTIONS:
 
 let min = 1,
     max = 10,
-    winningNum = getRandomNum(min, max),
+    winningNum = Math.floor(Math.random() *  (max - min + 1) + min), 
     guessesLeft = 3;
 
 // UI elements
